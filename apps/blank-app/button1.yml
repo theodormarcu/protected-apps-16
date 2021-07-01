@@ -1,0 +1,30 @@
+id: button1
+type: widget
+subtype: ButtonWidget
+resourceName: null
+template:
+  ordered:
+    - valueToCopy: ''
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Submit
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 3.8
+    col: 3
+    height: 1
+    width: 2
+createdAt: 2021-06-23T21:20:41.213Z
