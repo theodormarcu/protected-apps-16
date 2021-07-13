@@ -1,0 +1,32 @@
+id: image1
+type: widget
+subtype: ImageWidget
+resourceName: null
+template:
+  ordered:
+    - valueToCopy: ''
+    - isFile: false
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - exportQuery: ''
+    - imageUrl: https://placekitten.com/g/200/300
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - imageFile: ''
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 4.6
+    col: 8
+    height: 3
+    width: 2
+createdAt: 2021-07-13T20:43:33.871Z
