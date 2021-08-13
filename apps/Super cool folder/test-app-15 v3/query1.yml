@@ -61,6 +61,7 @@ template:
         20)
 
         return data
+    - events: []
     - queryTimeout: '10001'
     - requireConfirmation: false
     - type: GET
