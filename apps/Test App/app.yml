@@ -1,0 +1,57 @@
+version: 43.0.9
+pageUuid: 880cee10-fc87-11eb-800e-2f92483dcda2
+appTemplate:
+  testEntities:
+    array:
+      - object:
+          id: fc06915e-2ba9-4088-8df1-70845955eeb0
+          name: suite1
+          hooks:
+            array:
+              - object:
+                  type: 3
+                  body: ''
+              - object:
+                  type: 2
+                  body: assertCondition(2 % 2 === 0)
+              - object:
+                  type: 1
+                  body: ''
+              - object:
+                  type: 0
+                  body: assertCondition(2 % 3 === 0)
+          type: suite
+          tests:
+            array:
+              - object:
+                  id: 264bb7b5-dc67-414f-bb7b-106b7371b69a
+                  name: test1
+                  body: assertCondition(2 % 2 == 0)
+                  state: 1
+                  type: test
+                  pauseAllQueries: false
+                  suiteId: fc06915e-2ba9-4088-8df1-70845955eeb0
+                  failureMessage: |-
+                    Failed running 'Before Each' hook in suite 'suite1'.
+                    Failure at line 1: assertCondition failed..
+              - object:
+                  id: 731ec1b3-ac26-4d8b-9f58-1a47232bd579
+                  name: test2
+                  body: assertCondition(2 % 2 === 0)
+                  state: 1
+                  type: test
+                  pauseAllQueries: false
+                  suiteId: fc06915e-2ba9-4088-8df1-70845955eeb0
+                  failureMessage: |-
+                    Failed running 'Before Each' hook in suite 'suite1'.
+                    Failure at line 1: assertCondition failed..
+          pauseAllQueries: false
+      - object:
+          id: 6f146176-7058-4a0e-b076-0106d316f89b
+          name: test3
+          body: assertCondition(2 % 2 ==0)
+          state: 2
+          type: test
+          pauseAllQueries: false
+          failureMessage: null
+  version: 2.74.8
