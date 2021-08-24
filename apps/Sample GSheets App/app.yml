@@ -1,0 +1,44 @@
+version: 43.0.9
+pageUuid: 2f1eff32-fc87-11eb-8b4f-bbccc7ee7ec4
+appTemplate:
+  testEntities:
+    array:
+      - object:
+          id: d7830e12-e22f-4eaf-98e1-15272c1b5bef
+          name: suite1
+          hooks:
+            array:
+              - object:
+                  type: 3
+                  body: assertCondition(2 % 3 === 0)
+              - object:
+                  type: 2
+                  body: ''
+              - object:
+                  type: 1
+                  body: ''
+              - object:
+                  type: 0
+                  body: assertCondition(2 % 3 === 0)
+          type: suite
+          tests:
+            array:
+              - object:
+                  id: c86f430f-5e5a-408d-a406-8e59fa125837
+                  name: test1
+                  body: console.log('hello!')
+                  state: 3
+                  type: test
+                  pauseAllQueries: false
+                  failureMessage: null
+                  suiteId: d7830e12-e22f-4eaf-98e1-15272c1b5bef
+          pauseAllQueries: false
+      - object:
+          id: ebce161d-3b0f-4900-9da5-c8d7b02b99e1
+          name: test2
+          body: console.log('hello')
+          state: 2
+          type: test
+          pauseAllQueries: false
+          failureMessage: null
+  version: 2.75.2
