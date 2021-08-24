@@ -1,0 +1,46 @@
+id: textInput1
+type: widget
+subtype: TextInputWidget2
+resourceName: null
+template:
+  ordered:
+    - spellCheck: false
+    - readOnly: false
+    - iconAfter: ''
+    - showCharacterCount: false
+    - autoComplete: false
+    - maxLength: null
+    - hidden: false
+    - customValidation: ''
+    - patternType: ''
+    - hideValidationMessage: false
+    - textBefore: ''
+    - validationMessage: ''
+    - textAfter: ''
+    - showClear: false
+    - pattern: ''
+    - tooltipText: ''
+    - labelAlign: left
+    - value: test
+    - labelWidth: '40'
+    - autoFill: ''
+    - placeholder: Enter value
+    - label: Label
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - iconBefore: ''
+    - minLength: null
+    - autoCapitalize: none
+    - disabled: false
+    - labelPosition: left
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.4
+    col: 7
+    height: 1
+    width: 4
+createdAt: 2021-08-17T23:25:54.720Z
