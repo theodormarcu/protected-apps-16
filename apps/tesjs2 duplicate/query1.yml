@@ -1,0 +1,64 @@
+id: query1
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: "for(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\n\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n\tconsole.log(i, '\\t hello!\\nhello!')\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nfor(i = 0; i < 10; i++) {\n  console.log(i)\n}\n\nreturn {\n  name: 'hello',\n  value: 12432432\n}"
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - metadata: null
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: true
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: false
+    - transformer: |-
+        for(i = 0; i < 10; i++) {
+          console.log(i)
+        }
+
+
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2021-08-30T17:43:18.556Z
