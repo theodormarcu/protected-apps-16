@@ -1,4 +1,4 @@
-id: textInput1
+id: textInput3
 type: widget
 subtype: TextInputWidget2
 resourceName: null
@@ -21,8 +21,8 @@ template:
     - pattern: ''
     - tooltipText: ''
     - labelAlign: left
-    - value: test
-    - labelWidth: '40'
+    - value: ''
+    - labelWidth: '33'
     - autoFill: ''
     - placeholder: Enter value
     - label: Label
@@ -40,8 +40,8 @@ style:
   ordered: []
 position2:
   position2:
-    row: 2.4
-    col: 7
+    row: 10.6
+    col: 2
     height: 1
     width: 4
-createdAt: 2021-08-17T23:25:54.720Z
+createdAt: 2021-09-08T23:00:20.157Z
