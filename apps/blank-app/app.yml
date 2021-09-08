@@ -30,7 +30,6 @@ appTemplate:
 
 
                     assertCondition(textInput1.value=== 's')
-                  state: 1
                   type: test
                   pauseAllQueries: true
                   failureMessage: |
@@ -43,7 +42,6 @@ appTemplate:
                   id: aa618184-aff6-499a-a436-c377b35db295
                   name: test3
                   body: assertCondition(2 % 2 === )
-                  state: 1
                   type: test
                   pauseAllQueries: false
                   failureMessage: Unexpected token ')'
@@ -52,7 +50,6 @@ appTemplate:
                   id: a7851d8e-ef77-401e-89fd-6b45b1ee3677
                   name: test4
                   body: ''
-                  state: 0
                   type: test
                   pauseAllQueries: false
                   failureMessage: null
@@ -82,7 +79,6 @@ appTemplate:
                   id: c3af6622-fa5d-441b-8863-bd39144b091e
                   name: test2
                   body: ''
-                  state: 2
                   type: test
                   pauseAllQueries: false
                   suiteId: e6cd7dc4-8e23-4f26-890b-9a00dc6bbb8e
@@ -91,7 +87,6 @@ appTemplate:
                   id: 2973d556-451c-420f-8df4-e45e0657352b
                   name: test5
                   body: ''
-                  state: 0
                   type: test
                   pauseAllQueries: false
                   suiteId: e6cd7dc4-8e23-4f26-890b-9a00dc6bbb8e
@@ -118,4 +113,4 @@ appTemplate:
           tests:
             array: []
           pauseAllQueries: false
-  version: 2.75.2
+  version: 2.76.2
