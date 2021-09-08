@@ -1,4 +1,4 @@
-id: query1
+id: renamed_query
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
