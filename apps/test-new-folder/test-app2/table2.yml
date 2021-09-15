@@ -1,4 +1,4 @@
-id: table1
+id: table2
 type: widget
 subtype: TableWidget
 resourceName: null
@@ -54,9 +54,9 @@ template:
           "sales": 37
         }, {
           "id": 2,
-          "name": "Max Conversation",
-          "email": "Max@conversation.com",
-          "sales": 424
+          "name": "Sue Shei",
+          "email": "sueshei@example.com",
+          "sales": 550
         }, {
           "id": 3,
           "name": "Jason Response",
@@ -64,13 +64,13 @@ template:
           "sales": 55
         }, {
           "id": 4,
-          "name": "Sue Shei",
-          "email": "sueshei@example.com",
-          "sales": 550
+          "name": "Cher Actor",
+          "email": "cher@example.com",
+          "sales": 424
         }, {
           "id": 5,
-          "name": "Eric Widget",
-          "email": "eric@widget.org",
+          "name": "Erica Widget",
+          "email": "erica@widget.org",
           "sales": 243
         }]
     - displayedData: null
@@ -144,7 +144,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 1
+    row: 11
     height: 8
     width: 8
-createdAt: 2021-08-16T16:46:21.029Z
+createdAt: 2021-09-15T07:17:02.846Z
