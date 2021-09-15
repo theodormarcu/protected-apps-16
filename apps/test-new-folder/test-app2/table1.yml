@@ -119,6 +119,7 @@ template:
     - columnMappers:
         ordered: []
     - showClearSelection: false
+    - overflowType: pagination
     - selectedCell:
         object:
           index: null
@@ -129,6 +130,7 @@ template:
         - name
         - email
         - sales
+    - freezeActionButtonColumns: false
     - sort: null
     - calculatedColumns: []
     - selectedRow:
