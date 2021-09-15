@@ -5,6 +5,7 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - successMessage: ''
     - queryDisabled: ''

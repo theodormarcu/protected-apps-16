@@ -5,6 +5,7 @@ resourceName: SQL Transforms
 template:
   ordered:
     - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - successMessage: ''
     - queryDisabled: ''

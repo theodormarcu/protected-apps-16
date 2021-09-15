@@ -130,6 +130,7 @@ template:
         - name
         - email
         - sales
+    - freezeActionButtonColumns: false
     - sort: null
     - calculatedColumns: []
     - selectedRow:
