@@ -1,0 +1,69 @@
+id: query1
+type: datasource
+subtype: GRPCQuery
+resourceName: dfc93049-339d-4c75-9bb1-bfd3e8c1dbeb
+resourceDisplayName: helloworld
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: |-
+        {
+          "name": "Hello"
+        }
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - methodName: SayHello
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - metadata: null
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: true
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2021-09-21T21:23:36.416Z
